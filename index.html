@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Website</title>
+  <link rel="stylesheet" href="style.css">
+  
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+  <h1>Gym Website</h1>
+  <button class="btn">Sign Up</button>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="about.html">About</a>
+  <a href="class.html">Classes</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+  <section class="welcome">
+    <h2>Welcome to Our Gym</h2>
+    <p>If you want to become a fit man/women/boy/girl  then join gym and do some exercise to fit your body under the instructure that will give you good suggestion and help you to became fit </p>
+
+<button class="btn">Learn More</button>
+
+  </section>
+
+  <section class="classes">
+    <h2>Our Classes</h2>
+    <ul>
+      <li  class="cl">Yoga</li>
+      <li class="cl">Pilates</li>
+      <li class="cl">Spinning</li>
+      <li class="cl">Zumba</li>
+    </ul>
+
+    <span class="multiple-text"></span>
+
+    <button class="btn">Sign Up Now</button>
+  </section>
+
+<section class="img">
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0ePbtQD0Kc5hy3wVke1asuCU3eBTgFnVBxTuHS0_&s" alt="Gym photo">
+    <img src="https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="Yoga class photo">
+    <img src="https://media.istockphoto.com/id/1145944459/photo/group-exercise-class.jpg?s=612x612&w=0&k=20&c=8nvCimKAY0BpVgJe_a1UAdWutBXDivzzBoXSzXWf-oM=" alt="Spinning class photo">
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="info">
+    <p>123 Main Street</p>
+    <p>Anytown, USA</p>
+    <p>Phone: (555) 555-5555</p>
+    <p>Hours of Operation:</p>
+    <p>Monday-Friday: 6am-9pm</p>
+    <p>Saturday-Sunday: 8am-6pm</p>
+  </div>
+
+
+
+  <div class="social">
+    <a   href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+    <a  href="https://twitter.com/"><i class='bx bxl-twitter'></i></a>
+    <a  href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+    <a  href="https://www.linkedin.com/feed/"><i class='bx bxl-linkedin'></i></a>
+  
+  
+
+  </div>
+  <!-- <div class="social">
+    <a><i class="facebook"></i>facebook</a>
+    <a ><i class="insta"></i>instagram</a>
+
+
+  </div> -->
+  </footer>
+
+</main>
+
+</body>
+
+<script>
+  const signUpButton = document.querySelector('button');
+  signUpButton.addEventListener('click', () => {
+    alert('Thank you for signing up!');
+  });
+</script>
+
+
+
+<!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+const typed =new Typed ('.multiple-text',{
+  strings:['Yoga','Pilate',
+'Spinning' ,'Zumba'],
+typeSpeed:100,
+backSpeed:100,
+backDelay:1000,
+loop:true
+
+});
+</script> -->
+
+</html>

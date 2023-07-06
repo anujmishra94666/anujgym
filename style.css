@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #010102;
+
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #555;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.welcome {
+ 
+  height: 170px;
+    text-align: center;
+    margin: 52px;
+    line-height: 85px;
+    margin-bottom: 250px;
+    padding: 10px;
+}
+
+.classes {
+  height: 321px;
+  text-align: center;
+  margin: 70px;
+  line-height: 50px;
+  list-style: none;
+}
+
+.cl {
+  list-style: none;
+}
+.foot {
+  height: 321px;
+  text-align: center;
+  margin: 35px;
+  line-height: 50px;
+  list-style: none;
+}
+
+.btn {
+  padding: 7px;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  transition: 0.5s ease;
+  background-color: #268c6a75;
+  border-radius: 4rem;
+}
+
+
+.btn:hover{
+  background-color: #4968e5;
+
+}
+
+
+.social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  font-size: 2rem;
+  margin: 3rem 1.5rem 3rem 0;
+  text-decoration: none;
+}
+
+.social a:hover {
+background-color: #26cbcb;
+border-radius: 50%;
+}
